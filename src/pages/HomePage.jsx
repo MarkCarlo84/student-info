@@ -2,9 +2,11 @@ import { useState } from 'react'
 import StudentComponent from '../components/StudentComponent'
 
 const SAMPLE_STUDENTS = [
-  { id: 1, name: 'Maria Santos', course: 'BS Computer Science', year: 3 },
-  { id: 2, name: 'Juan Dela Cruz', course: 'BS Information Technology', year: 2 },
-  { id: 3, name: 'Ana Reyes', course: 'BS Software Engineering', year: 4 },
+  { id: 1, name: 'John Cedric', course: 'BS Information Technology', year: 3 },
+  { id: 2, name: 'Fren Sua', course: 'BS Information Technology', year: 2 },
+  { id: 3, name: 'Mathew Saymo', course: 'BS Information Technology', year: 4 },
+  { id: 4, name: 'Nerisa Endozo', course: 'BS Information Technology', year: 1 },
+  { id: 5, name: 'Allan Dave', course: 'BS Information Technology', year: 2 },
 ]
 
 function HomePage() {
